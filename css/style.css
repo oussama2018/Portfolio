@@ -1,3 +1,4 @@
+/* Home page CSS */
 .right{
     text-align: right;
     vertical-align: top;
@@ -10,7 +11,7 @@
     height: 100vh; /* set height to viewport height */
     opacity: 0.5;
   }
-
+/* Center button resume */
   .centered-button {
     position: absolute;
     top: 80%;
@@ -44,4 +45,63 @@
     background-color: #616161;
     border-radius: 5px;
   }
+  header {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+  }
   
+  nav {
+    float: right;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .fa {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #333;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .fa-linkedin {
+    background: #333;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #333;
+    color: white;
+  }
+  
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+ 
